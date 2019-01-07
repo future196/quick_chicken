@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鸡快 - 首页</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <script type="text/javascript" src="../static/css/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/home.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container" style="margin:0 12%">
+      <a class="brand" href="#">Brand</a>
+      <ul class="nav">
+          <li class="active"><a href="#">首页</a></li>
+          <li><a href="release_mission.html">发布任务</a></li>
+      </ul>
+      <!-- Everything you want hidden at 940px or less, place within here -->
+      <div class="nav-collapse collapse">
+            <form class="navbar-form pull-left">
+              <input type="text" class="span2" placeholder="搜索任务">
+              <button type="submit" class="btn">搜索</button>
+            </form>
+            <ul class="nav" style="float:right;">
+                <li><a href="../personal/person.html">想着想着就忘了</a></li>
+                <li><a href="../personal/login.html">注销</a></li>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">立即注册</a></li>
+                </li>
+            </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+    function active(num){
+        var tabs = document.getElementsByClassName("tab_item");
+        for(var i = 0;i<tabs.length;i++){
+        tabs[i].classList.remove("active");
+        }
+
+        tabs[num].classList.add("active");
+    }
+</script>
+
+<div class="main">
+<ul class="nav nav-tabs">
+  <li class="tab_item active"><a href="#" onclick="active(0)">推荐任务</a></li>
+  <li class="tab_item"><a href="#" onclick="active(1)">跑腿类任务</a></li>
+  <li class="tab_item"><a href="#" onclick="active(2)">难题类任务</a></li>
+  <li class="tab_item"><a href="#" onclick="active(3)">需求类任务</a></li>
+  <li class="tab_item"><a href="#" onclick="active(4)">...</a></li>
+</ul>
+
+  <ul>
+
+        <li class="home_li">
+
+            <div class="icon">
+                <img class="img" src="../static/images/1.jpg" alt="icon" >
+            </div>
+          <div class="mission_title">
+              <a href="mission_detail.html"><h4>我想喝奶茶</h4></a>
+              <p>谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？</p>
+            </div>
+
+              <div class="mission_info">
+                  <span class="mission_author">老江</span>
+                  <span class="mission_time">2018-10-22 18：20</span>
+              </div>
+            <li class="home_li">
+            <hr>
+            <div class="icon">
+                <img class="img" src="../static/images/1.jpg" alt="icon" >
+            </div>
+          <div class="mission_title">
+              <a href="mission_detail.html"><h4>我想喝奶茶</h4></a>
+              <p>谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？谁能帮我到商业街的蜜雪冰城买一杯奶茶呢？</p>
+            </div>
+
+              <div class="mission_info">
+                  <span class="mission_author">老江</span>
+                  <span class="mission_time">2018-10-22 18：20</span>
+              </div>
+      </li>
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+</body>
+</html>

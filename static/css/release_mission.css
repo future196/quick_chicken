@@ -1,0 +1,24 @@
+.form-container{
+width:350px;
+margin:0 auto;
+text-align:center;
+}
+
+
+.question_text{
+text-align:center;
+}
+
+
+.img-div{
+border: 1px solid #ddd;
+border-radius: 100%;
+float: left;
+line-height: 1;
+margin-left: 5px;
+overflow: hidden;
+}
+
+.file_img{
+width:10px;
+}

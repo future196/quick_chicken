@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鸡快 - 修改个人信息</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/register.css">
+    <script src="../static/js/modify_info.js"></script>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container" style="margin:0 12%">
+      <a class="brand" href="#">Brand</a>
+      <ul class="nav">
+          <li class="active"><a href="../main/home.html">首页</a></li>
+          <li><a href="release_mission.html">发布任务</a></li>
+      </ul>
+      <!-- Everything you want hidden at 940px or less, place within here -->
+      <div class="nav-collapse collapse">
+            <form class="navbar-form pull-left">
+              <input type="text" class="span2" placeholder="搜索任务">
+              <button type="submit" class="btn">搜索</button>
+            </form>
+            <ul class="nav" style="float:right;">
+                <li><a href="../personal/person.html">想着想着就忘了</a></li>
+                <li><a href="../personal/login.html">注销</a></li>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">立即注册</a></li>
+                </li>
+            </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="main">
+     <h3 class="login_text">修改个人信息</h3>
+<form action="#" method="" name="modify" onsubmit="return check()">
+    <div class="form-container">
+        <div class="form-group">
+            <input type="text" name="telephone" id="telephone" class="form-control" placeholder="修改手机号" onchange="telephone_check()">
+        </div>
+        <p id="telephone_error" style="color:red;"></p>
+        <div class="form-group">
+            <input type="text" name="username" id="username" class="form-control" placeholder="修改用户名" onchange="username_check()">
+        </div>
+        <p id="username_error" style="color:red;"></p>
+        <div>
+            <label>修改您的性别：<input type="radio" checked name="sex" value="男">男 <input type="radio" name="sex" value="女">女</label>
+        </div>
+        <div>
+        更换头像：<input type="file" name="icon">
+        </div>
+        <br>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block" name="">修改信息</button>
+        </div>
+    </div>
+
+</form>
+    <a href="change_password.html"><p style="text-align:center;">修改登录密码</p></a>
+</div>
+
+
+
+</body>
+</html>
